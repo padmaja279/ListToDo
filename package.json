@@ -1,0 +1,29 @@
+{
+  "name": "ListToDo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.0",
+    "react-native-camera": "^0.8.0",
+    "react-native-camera-kit": "^5.2.14",
+    "react-native-double-click": "^1.0.3",
+    "react-native-icons": "^0.7.1",
+    "react-native-sortable-listview": "^0.2.2",
+    "react-navigation": "^1.0.0-beta.9",
+    "yarn": "^0.24.4"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "1.9.2",
+    "jest": "20.0.3",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
